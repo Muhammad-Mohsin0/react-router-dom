@@ -1,4 +1,3 @@
-// components/Card.js
 import React from "react";
 import { FaStar } from "react-icons/fa";
 
@@ -7,7 +6,7 @@ function Card({ value }) {
 
   return (
    
-    <div className=" ml-8 mt-12 mr-6 mb-8 shadow-md ">
+    <div className=" sm:w-[250px] ml-8 mt-12 mr-6 mb-8 shadow-md hover:scale-105 transition duration-700">
 
       <div className="relative  ">
           {tag && <div className="absolute text-black text-center w-[30%] mt-2 ml-2 rounded-lg bg-white font-semibold px-2 py-1" >{tag}</div>}
