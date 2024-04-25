@@ -29,7 +29,7 @@ const handleSubmit =()=>{
   
   return (
    <div className="flex justify-center ">
-     <div className="w-[50%]  bg-white p-8 rounded-md shadow-md mt-3 mb-7"> 
+     <div className="w-[50%]  bg-gray-100 p-8 rounded-md shadow-md mt-3 mb-7"> 
           {questions.map((question) => (
            <div key={question.key} className="mb-3 ">
               <h2 className="text-lg text-blue-900 font-semibold mb-2">

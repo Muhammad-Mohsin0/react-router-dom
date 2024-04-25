@@ -3,12 +3,12 @@ import Quiz from "../Components/Quiz";
 import mcqsData from "../json/Mcqs";
 
 
-const QuizApp = () => {
+const QuizPage = () => {
   return (
-    <div className="min-h-screen bg-rose-300 ">
+    <div className="min-h-screen bg-white ">
       <Quiz questions={mcqsData}/>
     </div>
   );
 };
 
-export default QuizApp;
+export default QuizPage;
