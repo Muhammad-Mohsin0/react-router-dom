@@ -3,7 +3,7 @@ import travelData from "../json/Travel";
 import Card from "../Components/CardTravel";
 import { GiWorld } from "react-icons/gi";
 
-function TravelApp() {
+function TravelPage() {
   return (
     <>
     <div className="flex justify-center">
@@ -23,4 +23,4 @@ function TravelApp() {
   );
 }
 
-export default TravelApp;
+export default TravelPage;
