@@ -5,7 +5,7 @@ function Card({ destination }) {
 
   return (
 
-    <div className="flex max-w-2xl rounded shadow-lg bg-gray-200 text-black mt-10 m-4 items-center">
+    <div className="xm:w-[950px] flex max-w-2xl rounded shadow-lg bg-gray-200 text-black mt-10 m-4 items-center">
        <div className="relative ml-2 mr-5 my-2 w-[150%] overflow-hidden group flex items-center justify-center transition  duration-300 hover:opacity-90  hover:scale-105 " >
           <img src={destination.Imagesource} alt={destination.Placename} className="rounded h-64  object-cover   transition  duration-300 hover:opacity-70 " />
          <div className="absolute -bottom-10 group-hover:bottom-32">

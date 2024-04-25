@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
 
-    <div className="flex flex-col items-center mt-8 mb-5 ">
+    <div className=" xm:w-[900px] xm:justify-evenly sm:w-[900px] sm:justify-evenly flex flex-col items-center mt-8 mb-5 ">
       <div className="flex items-center w-[76%] justify-between h-16 rounded-t-lg bg-orange-600 font-extrabold font-mono">
        <div className="flex items-center">
          <SiAirbnb size={28} className="ml-10 text-white"/>

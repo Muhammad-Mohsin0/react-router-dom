@@ -2,14 +2,14 @@
 import React from "react";
 import Card from "../Components/Cardonline";
 import onlineData from "../json/OnlineData";
-import Navbar from "../Components/Navbaronline";
+
 
 function OnlinePage() {
   return (
     <>
 
    
-    <div className="flex flex-col items-center mt-8 mb-5 ">
+    <div className=" xm:w-[900px] sm:w-[900px] flex flex-col items-center mt-8 mb-5 ">
       <div className=" flex flex-wrap w-[76%] shadow-lg">
         <div className="flex flex-wrap  ">
          <div className="ml-16 mt-12 ">
@@ -19,7 +19,7 @@ function OnlinePage() {
          </div>
        </div>
 
-        <div className="flex flex-wrap justify-center md:">
+        <div className=" xm:w-[900px] flex flex-wrap justify-center md:">
         {onlineData.map((value) => (
           <div key={value.id}>
             <Card value={value}/>
