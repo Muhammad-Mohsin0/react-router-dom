@@ -2,9 +2,16 @@
 import React from "react";
 import Card from "../Components/Cardonline";
 import onlineData from "../json/OnlineData";
+import { useNavigate } from "react-router-dom";
 
 
 function OnlinePage() {
+const navigate=useNavigate() 
+
+  const signout =()=>{
+    localStorage.setItem('LoginPage', false)
+    navigate('/LoginPage')
+  }
   return (
     <>
 
@@ -28,6 +35,7 @@ function OnlinePage() {
         </div>
       
       </div>
+      <button className="bg-gray-300 py-1 px-2 border border-solid rounded text-white bg-green-700 m-3" onClick={signout}>Jump-out</button>
     </div>
     </>
   );
